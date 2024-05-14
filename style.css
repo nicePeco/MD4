@@ -1,0 +1,169 @@
+body {
+  width: 1100px;
+  margin: auto;
+}
+
+header img {
+  width: 100%;
+  margin: auto;
+}
+
+.first {
+  display: flex;
+  width: 1100px;
+  height: 100vh;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+  font-size: 30px;
+  justify-content: space-around;
+  background-color: rgb(168, 168, 168);
+}
+
+.first img {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin: auto;
+  padding-top: 50%;
+}
+
+.favourite {
+  position: absolute;
+  color: wheat;
+}
+
+.second img {
+  height: 100vh;
+  width: 100%;
+  align-content: center;
+}
+
+.third {
+  width: 1100px;
+  align-items: stretch;
+  background-color: rgb(168, 168, 168);
+  margin: auto;
+}
+
+.engine {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.engine p {
+  padding-top: 10%;
+}
+
+.engine img {
+  padding: 10px;
+  width: 40%;
+}
+
+.chassis {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.chassis p {
+  padding-top: 10%;
+}
+
+.chassis img {
+  padding: 10px;
+  width: 40%;
+}
+
+.conclusion {
+  display: flex;
+  gap: 30px;
+}
+
+.conclusion p {
+  padding-top: 55px;
+}
+
+.conclusion img {
+  padding: 10px;
+  width: 45%;
+}
+
+.moreFavs {
+  margin: auto;
+  width: 1100px;
+  text-align: center;
+  align-items: stretch;
+}
+
+.bmwAndMercedes {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.bmw {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 8%;
+}
+
+.mercedes {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 43%;
+}
+
+.lanciaAndAudi {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.lancia {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 8%;
+}
+
+.audi {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 43%;
+}
+
+.moreFavs img {
+  width: 40%;
+}
+
+.ending {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 10px;
+  align-items: stretch;
+}
+
+.ending img {
+  width: 20%;
+  padding-left: 15px;
+}
+
+.ending h6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.ending p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-left: 20px;
+}
